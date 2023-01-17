@@ -9,8 +9,8 @@ const MainNavigation = () => {
         <div className={classes.logo}>Great Quotes</div>
         <nav className={classes.nav}>
             <ul>
-                <li><NavLink to='/quotes'>All Quotes</NavLink></li>
-                <li><NavLink to='/newQuote'>All Quotes</NavLink></li>
+                <li><NavLink activeClassName={classes.actve} to='/quotes'>All Quotes</NavLink></li>
+                <li><NavLink activeClassName={classes.active} to='/newQuote'>Add a Quote</NavLink></li>
             </ul>
         </nav>
     </header>
