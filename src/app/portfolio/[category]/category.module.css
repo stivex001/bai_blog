@@ -29,3 +29,11 @@
     gap: 20px;
     justify-content: center;
 }
+
+.title {
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 20px;
+}
