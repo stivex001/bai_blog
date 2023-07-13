@@ -3,7 +3,7 @@
   height: 70px;
   background-color: #35363a;
   border-bottom: 1px solid #66676b;
-  position: fixed;
+  position: sticky;
   top: 0px;
   z-index: 999;
 }
@@ -22,12 +22,13 @@
   flex: 1;
   background-color: #35363a;
   color: white;
-}
-
-.sidebar {
-  padding: 20px;
   height: calc(100vh - 70px);
   position: sticky;
   top: 70px;
   overflow-y: auto;
+}
+
+.sidebar {
+  padding: 20px;
+  
 }
